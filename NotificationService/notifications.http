@@ -1,0 +1,11 @@
+### Get all notifications
+GET http://localhost:5002/api/notifications
+
+### Get notifications for an order
+GET http://localhost:5002/api/notifications?orderId={{orderId}}
+
+### Get notification by id
+GET http://localhost:5002/api/notifications/{{notificationId}}
+
+### Health / root
+GET http://localhost:5002/

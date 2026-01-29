@@ -1,0 +1,16 @@
+@OrderServiceNotifications_HostAddress = http://localhost:5059
+@orderId = REPLACE_WITH_REAL_ID
+
+
+
+### Get All Orders
+GET {{OrderServiceNotifications_HostAddress}}/api/orders
+Accept: application/json
+
+### Get Order By Id (Existing)
+GET {{OrderServiceNotifications_HostAddress}}/api/orders/{{orderId}}
+Accept: application/json
+
+### Get Order By Id (Not Found)
+GET {{OrderServiceNotifications_HostAddress}}/api/orders/aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee
+Accept: application/json
