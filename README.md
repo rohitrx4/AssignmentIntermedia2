@@ -17,7 +17,7 @@ $env:RABBITMQ_HOST = 'localhost'
 $env:RABBITMQ_USER = 'user'
 $env:RABBITMQ_PASS = 'password'
 $env:ASPNETCORE_URLS = 'http://localhost:5000'
-dotnet run --project .\OrderServiceNotifications\OrderServiceNotifications.csproj --no-launch-profile
+dotnet run --project .\OrderServiceNotifications\OrderService.csproj --no-launch-profile
 
 
 Running Notification Service Locally
